@@ -119,7 +119,4 @@ npm run build
 npm run lint
 ```
 
----
 
-##  License
-Internal Railway Operations & Intelligence Prototype. All rights reserved.
