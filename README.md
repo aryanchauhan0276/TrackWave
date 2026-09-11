@@ -1,10 +1,9 @@
 # RAILCAST — Real-Time AI-Powered ETA & Railway Network Intelligence Platform
-
-> **A production-grade, event-driven railway intelligence platform combining physics-based deterministic baseline ETA estimation, machine learning residual correction (XGBoost), quantile uncertainty intervals, TreeSHAP explainability, network-level delay cascade prediction, real-time streaming over Redis Streams & WebSockets, and a modern operator frontend.**
+**A production-grade, event-driven railway intelligence platform combining physics-based deterministic baseline ETA estimation, machine learning residual correction (XGBoost), quantile uncertainty intervals, TreeSHAP explainability, network-level delay cascade prediction, real-time streaming over Redis Streams & WebSockets, and a modern operator frontend.**
 
 ---
 
-## 🚆 System Architecture Highlights
+##  System Architecture Highlights
 
 ```
       Telemetry Ingestion (NTES / RTIS / Simulator)
@@ -48,7 +47,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 - `backend/` — FastAPI application, ML engine, streaming pipeline, SQLAlchemy digital twin, and MLOps tooling.
   - `app/` — Application source code (api, core, ml, models, monitoring, network, providers, repositories, schemas, services, streaming).
@@ -62,7 +61,7 @@
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### Prerequisites
 - **Python:** 3.12+
@@ -92,7 +91,7 @@ Frontend dashboard available at: `http://localhost:5173`
 
 ---
 
-## 🧪 Testing & Verification
+## Testing & Verification
 
 ### Run End-to-End Demo Scenario
 Walks through an end-to-end 6-step train journey (T0 to T5) demonstrating telemetry ingestion, baseline ETA, ML correction, uncertainty bands, network cascade impact, predictive alerts, and WebSocket broadcasting:
@@ -122,5 +121,5 @@ npm run lint
 
 ---
 
-## 📜 License
+##  License
 Internal Railway Operations & Intelligence Prototype. All rights reserved.
